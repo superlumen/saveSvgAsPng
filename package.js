@@ -3,10 +3,10 @@
 // and used by Meteor https://www.meteor.com/ and its package repository Atmosphere https://atmospherejs.com
 
 Package.describe({
-    name: 'superlumen:savesvgaspng',
+    name: 'superlumen:save-svg-as-png',
     summary: 'Take an SVG in the document and prompt the user to download it as a PNG',
     version: '1.0.0_1',
-    git: "https://github.com/exupero/saveSvgAsPng.git"
+    git: "https://github.com/superlumen/saveSvgAsPng.git"
 });
 Package.on_use(function (api) {
     api.versionsFrom("METEOR@1.0");
